@@ -8,9 +8,9 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   Product.findAll({
-    include: [{ model: Category},{ Tag }]
-  }).then((dbProductData) => {
-    res.json(dbProductData);
+    include: [{ model: Category}, { model: Tag }]
+  }).then((productData) => {
+    res.json(productData);
   });
 });
 
@@ -19,9 +19,9 @@ router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   Product.findByPk(req.params.id, {
-    include: [{ model: Category}, {Tag }]
-  }).then((dbProductData) => {
-    res.json(dbProductData);
+    include: [{ model: Category}, { model: Tag }]
+  }).then((productData) => {
+    res.json(productData);
   })
   .catch((err) => {
     res.json(err);
