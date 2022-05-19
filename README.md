@@ -13,3 +13,4 @@ Using a tool like Insomnia you can then get all the data back from the database,
 express, mysql, sequelize, insomnia (for route testing)
 
 ## Video Demo Here
+https://www.youtube.com/watch?v=niBJ8wHfpm0
