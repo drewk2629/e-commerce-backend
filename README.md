@@ -14,3 +14,7 @@ express, mysql, sequelize, insomnia (for route testing)
 
 ## Video Demo Here
 https://www.youtube.com/watch?v=niBJ8wHfpm0
+
+Sorry there's no audio. My mic decided it just wanted to stop working. If you need any help don't hesitate to reach out to me for anything!
+
+drewk2929@gmail.com
